@@ -1,0 +1,41 @@
+.gradient-background{
+  @extend %gradient;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.login-container{
+  z-index: 5;
+  position: relative;
+  margin: 0 auto;
+  max-width: 325px;
+  padding-top: 60px;
+}
+
+.form-login{
+  background-color: white;
+  padding: 32px;
+  box-shadow: 0 0 90px rgba(51, 51, 51, 0.60);
+  margin-bottom: 48px;
+}
+
+.login{
+  &__logo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+
+  &__copy{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    opacity: .6;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

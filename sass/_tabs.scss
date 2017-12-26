@@ -1,0 +1,25 @@
+
+.nav-tabs > li > a{
+  background-color: #d7dcde;
+  line-height: 1;
+
+  @media($desktop){
+    padding: 10px 35px;
+  }
+}
+
+.dcm-tabs{
+  background-color: #f5f6f6;
+  .nav-tabs{
+    border-bottom: 2px solid $color-brand-primary;
+    li{
+      margin-bottom: 0;
+      @media($desktop){
+        margin-left: 20px;
+      }
+      &:first-child{
+        @media($desktop){margin-left: 20px;}
+      }
+    }
+  }
+}

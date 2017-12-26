@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+// Imports and
+@import 'variables';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import 'helpers';
+@import 'login';
+@import 'menu';
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  color: #2f3b49;
+}
+
+::selection {
+  color: white;
+  background-color: $color-brand-secondary;
+}
+
+img{
+  max-width: 100%;
+}
+
+.sidebar{
+  @media ($desktop) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: $sidebar-width;
+    height: 100%;
+    background-color: #999;
+  }
+}
+
+// Right section with the main content
+.main{
+  padding-top: $header-height;
+  position: relative;
+  @media ($desktop) {
+    padding-top: 0;
+    width: calc(100% - $sidebar-width);
+    margin-left: $sidebar-width;
+  }
+}
+
+.main-top{
+  height: $header-height;
+  position: relative;
+  display: none;
+  @media ($desktop){
+    display: block;
+    padding: 20px;
+    position: fixed;
+    width: calc(100% - #{$sidebar-width});
+    background: white;
+    top: 0;
+    right: 0;
+    left: auto;
+  }
+  &:after{
+    @media ($desktop){
+      opacity: 1;
+      left: 0;
+      transition: 100ms;
+      content: " ";
+      position: absolute;
+      bottom: -1px;
+      background-color: #d2d2d2;
+      height: 1px;
+      width: 100%;
+    }
+  }
+}
+
+
+.dcm-breadcrumbs{
+  background-color: #f5f5f5;
+  padding: 29px 0 20px 29px;
+  font-size: 28px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: 300;
+
+  .highlight{
+    font-weight: 600;
+    color: $color-brand-secondary;
+  }
+}
+
+.content-section{
+  padding-top: $header-height;
+}
+
+.main-top-info{
+  text-align: right;
+}
+
+.dcm-select{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding-right: 20px;
+  background-color: #f5f5f5;
+  border: none;
+  color: #232e3a;
+  line-height: 1;
+  height: 30px;
+  width: 100%;
+  max-width: 240px;
+}
+
+.top-profile{
+  cursor: pointer;
+  text-align: right;
+  display: inline-block;
+  text-decoration: none;
+  background-image: url(../img/icon-profile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 40px;
+  background-position: center right;
+  margin-right: 10px;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.link-logout-top{
+  display: inline-block;
+  height: 31px;
+  width: 31px;
+  background-image: url(../img/icon-exit.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: right;
+  @extend %hide-text;
+  color: transparent;
+  font-size: .1px;
+  font-size: 0;
+}

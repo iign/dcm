@@ -1,0 +1,26 @@
+.alert{
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+  padding-left: 70px;
+  border: none;
+}
+
+.alert-danger{
+  color: #d84244;
+  background-size: 26px;
+  background-color: #f9e3e3;
+  background-image: url(../img/icon-danger.svg);
+}
+
+.has-error .form-control{
+  box-shadow: none;
+}
+
+label{
+  color: $brand-primary;
+  font-weight: normal;
+}
+
+.btn{
+  text-transform: uppercase;
+}

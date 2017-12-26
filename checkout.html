@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Modules</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2f3b49">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <sidebar class="sidebar">
+      <header class="header">
+        <div class="hamburger-menu js-menu">
+            <div class="bar js-toggle-menu"></div>
+        </div>
+      </header>
+
+      <nav class="dcm-nav js-top-menu">
+        <ul class="nav-items">
+          <li class="nav-item nav-item--profile"
+              style="background-image: url(../img/icon-profile.svg)">
+            <div class="nav-item__username">Fabián Olivera</div>
+            <div class="nav-item__role">Administrator</div>
+          </li>
+          <li class="nav-separator"></li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Patients</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-agenda.svg)">Personalia</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-profile.svg)">Users</a>
+          </li>
+          <li class="nav-item nav-item--active">
+            <a href="#" style="background-image: url(../img/icon-modules.svg);
+               background-position-x: 15px;">Modules</a>
+          </li>
+          <li class="nav-separator"></li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-profile-gear.svg)">User Configuration</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-gear.svg)">General Configuration</a>
+          </li>
+        </ul>
+      </nav>
+    </sidebar>
+
+    <main class="main">
+      <div class="main-top">
+        <div class="row">
+        <div class="col-sm-4">
+          <select class="dcm-select" name="select-clinic">
+          <option value="Clínica Red Dentist">Clínica Red Dentist</option>
+          <option value="">Another Clinic</option>
+          <option value="">Another Clinic</option>
+          <option value="">Another Clinic</option>
+          <option value="">Another Clinic</option>
+          <option value="">Another Clinic</option>
+        </select>
+        </div>
+        <div class="col-sm-8 main-top-info">
+          <a class="top-profile">
+            <div class="nav-item__username">Fabián Olivera</div>
+            <div class="nav-item__role">Administrator</div>
+          </a>
+          <a class="link-logout-top" href="#">Log out</a>
+        </div>
+        </div>
+      </div>
+
+      <section class="content-section">
+        <!-- Here goes the main content -->
+
+        <div class="dcm-breadcrumbs">
+          <span>Modules</span>
+        </div>
+
+        <div class="container-fluid main-content">
+
+          <ul class="module__list">
+
+          <li class="module__item module__checkout">
+            <div class="module__img" style="background-image: url('http://via.placeholder.com/360x260')"></div>
+
+            <div class="module__content">
+              <div class="module__content-col">
+                <h2 class="module__title">Module Name 01</h2>
+                <div class="module__description">
+                  <div class="module__expiration">Valid until 10/10/2019</div>
+                </div>
+              </div>
+              <div class="module__content-col">
+                <span class="module__currency">NOK</span> <span class="module__amount">120,000</span>
+              </div>
+              <div class="module__content-col">
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+          </li>
+
+          <li class="module__item module__checkout">
+            <div class="module__img" style="background-image: url('http://via.placeholder.com/360x260')"></div>
+
+            <div class="module__content">
+              <div class="module__content-col">
+                <h2 class="module__title">Module Name 01</h2>
+                <div class="module__description">
+                  <div class="module__expiration">Valid until 10/10/2019</div>
+                </div>
+              </div>
+              <div class="module__content-col">
+                <span class="module__currency">NOK</span> <span class="module__amount">120,000</span>
+              </div>
+              <div class="module__content-col">
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+          </li>
+
+          <li class="module__item module__checkout">
+            <div class="module__img" style="background-image: url('http://via.placeholder.com/360x260')"></div>
+
+            <div class="module__content">
+              <div class="module__content-col">
+                <h2 class="module__title">Module Name 01</h2>
+                <div class="module__description">
+                  <div class="module__expiration">Valid until 10/10/2019</div>
+                </div>
+              </div>
+              <div class="module__content-col">
+                <span class="module__currency">NOK</span> <span class="module__amount">120,000</span>
+              </div>
+              <div class="module__content-col">
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+          </li>
+
+          </ul>
+
+        <div class="checkout__total">
+          Total <span class="checkout__currency">NOK</span> <span class="checkout__amount">250,000</span>
+        </div>
+
+        <div class="checkout__more">
+          <label class="text-danger checkout__info"><input type="checkbox"> Godta vilkår og betingelser</label>
+          <button type="submit" class="btn btn-success checkout__btn">Fortsett til utsjekking</button>
+        </div>
+
+
+        </div>
+
+        <!-- Here goes the main content -->
+      </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/app.js"></script>
+
+    <script>
+
+
+
+      $('.js-modules-more-info').on('click', function () {
+        $(this).toggleClass('active')
+        var id = $(this).data('trigger-id')
+        $(id).toggleClass('active')
+      })
+
+
+
+
+    </script>
+
+
+  </body>
+</html>

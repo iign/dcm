@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <sidebar class="sidebar">
+      <header class="header">
+        <div class="hamburger-menu js-menu">
+            <div class="bar js-toggle-menu"></div>
+        </div>
+      </header>
+
+      <nav class="nav js-top-menu">
+        <ul class="nav-items">
+          <li class="nav-item nav-item--profile"
+              style="background-image: url(../img/icon-profile.svg)">
+            <div class="nav-item__username">Fabián Olivera</div>
+            <div class="nav-item__role">Administrator</div>
+          </li>
+          <li class="nav-separator"></li>
+          <li class="nav-item nav-item--active">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Appointments</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Patients</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Treatments</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Personalia</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Users</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Pricelist</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Transfer</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Medical Resources</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Reports</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Accounting</a>
+          </li>
+          <li class="nav-separator"></li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">User Configuration</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">General Configuration</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Exit</a>
+          </li>
+        </ul>
+      </nav>
+    </sidebar>
+
+    <main class="main">
+      <div class="main-top">
+        <select name="" id="">
+          <option value="Clínica Red Dentist">Clínica Red Dentist</option>
+          <option value="">Another Clinic</option>
+        </select>
+      </div>
+
+      <section class="content-section">
+        <!-- Here goes the main content -->
+
+        <div class="dcm-breadcrumbs">
+          <span>Patients</span> / <span class="highlight">Create</span>
+        </div>
+
+        <div class="container-fluid main-content">
+          <h1>Hello, world</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, rerum quaerat asperiores totam tempora, quibusdam, modi vitae amet obcaecati autem assumenda. Autem minima vel unde itaque consequatur dolorem, neque quia!
+          </p>
+        </div>
+
+        <!-- Here goes the main content -->
+      </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/app.js"></script>
+
+
+  </body>
+</html>

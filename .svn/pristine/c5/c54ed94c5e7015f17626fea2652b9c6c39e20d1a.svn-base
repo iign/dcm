@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2f3b49">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <sidebar class="sidebar">
+      <header class="header">
+        <div class="hamburger-menu js-menu">
+            <div class="bar js-toggle-menu"></div>
+        </div>
+      </header>
+
+      <nav class="nav js-top-menu">
+        <ul class="nav-items">
+          <li class="nav-item nav-item--profile"
+              style="background-image: url(../img/icon-profile.svg)">
+            <div class="nav-item__username">Fabián Olivera</div>
+            <div class="nav-item__role">Administrator</div>
+          </li>
+          <li class="nav-separator"></li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-agenda.svg)">Appointments</a>
+          </li>
+          <li class="nav-item nav-item--active">
+            <a href="#" style="background-image: url(../img/icon-patients.svg)">Patients</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-pill.svg)">Treatments</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-agenda.svg)">Personalia</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-profile.svg)">Users</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-dollar.svg)">Pricelist</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-arrows.svg)">Transfer</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-diagram.svg)">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-resources.svg)">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-med-resources.svg)">Medical Resources</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-report.svg)">Reports</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-calc.svg)">Accounting</a>
+          </li>
+          <li class="nav-separator"></li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-profile-gear.svg)">User Configuration</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" style="background-image: url(../img/icon-gear.svg)">General Configuration</a>
+          </li>
+        </ul>
+      </nav>
+    </sidebar>
+
+    <main class="main">
+      <div class="main-top">
+        <div class="row">
+        <div class="col-sm-4">
+          <select class="dcm-select" name="select-clinic">
+          <option value="Clínica Red Dentist">Clínica Red Dentist</option>
+          <option value="">Another Clinic</option>
+          <option value="">Another Clinic</option>
+          <option value="">Another Clinic</option>
+          <option value="">Another Clinic</option>
+          <option value="">Another Clinic</option>
+        </select>
+        </div>
+        <div class="col-sm-8 main-top-info">
+          <a class="top-profile">
+            <div class="nav-item__username">Fabián Olivera</div>
+            <div class="nav-item__role">Administrator</div>
+          </a>
+          <a class="link-logout-top" href="#">Log out</a>
+        </div>
+        </div>
+      </div>
+
+      <section class="content-section">
+        <!-- Here goes the main content -->
+
+        <div class="dcm-breadcrumbs">
+          <span>Patients</span> / <span class="highlight">Create</span>
+        </div>
+
+        <div class="container-fluid main-content">
+          <div class="alert alert-danger" role="alert">
+            <span class="sr-only">Error:</span>
+            <strong>*Name is required</strong>
+            <br>
+            <strong>*Surname is required</strong>
+          </div>
+
+          <form action="#" method="post">            
+    <fieldset>
+        <legend>Login Information</legend>
+        <div class='row'>
+            <div class='col-sm-12'>
+                <div class='form-group'>
+                    <label for="user_login">Username</label>
+                    <input class="form-control" id="user_login" name="user[login]" required="true" size="30" type="text" />
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-sm-6'>
+                <div class='form-group'>
+                    <label for="user_password">Password</label>
+                    <input class="form-control" id="user_password" name="user[password]" size="30" type="password" />
+                </div>
+            </div>
+            <div class='col-sm-6'>
+                <div class='form-group'>
+                    <label for="user_password_confirmation">Password confirmation</label>
+                    <input class="form-control" id="user_password_confirmation" name="user[password_confirmation]" size="30" type="password" />
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div class='row'>
+            <div class='col-sm-4'>    
+                <div class='form-group'>
+                    <label for="user_title">Title</label>
+                    <input class="form-control" id="user_title" name="user[title]" size="30" type="text" />
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="user_firstname">First name</label>
+                    <input class="form-control" id="user_firstname" name="user[firstname]" required="true" size="30" type="text" />
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="user_lastname">Last name</label>
+                    <input class="form-control" id="user_lastname" name="user[lastname]" required="true" size="30" type="text" />
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-sm-12'>
+                <div class='form-group'>
+                    
+                    <label for="user_email">Email</label>
+                    <input class="form-control required email" id="user_email" name="user[email]" required="true" size="30" type="text" />
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Options</legend>
+        <div class='row'>
+            <div class='col-sm-12'>
+                <div class='form-group'>
+                    <label for="user_locale">Language</label>
+                    <select class="form-control" id="user_locale" name="user[locale]"><option value="de" selected="selected">Deutsch</option>
+                        <option value="en">English</option></select>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</form>
+
+        </div>
+
+        <!-- Here goes the main content -->
+      </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/app.js"></script>
+
+
+  </body>
+</html>

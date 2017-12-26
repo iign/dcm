@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+$desktop : 'min-width: 769px';
+
+// Override Bootstrap's defaults
+$input-border-radius: 0;
+$brand-primary: #2f3b49;
+$font-family-sans-serif: 'Khula', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$input-border-focus: $brand-primary !default;
+$padding-base-vertical:     8px !default;

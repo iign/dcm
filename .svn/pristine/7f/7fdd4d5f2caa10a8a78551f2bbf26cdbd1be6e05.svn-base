@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <div class="gradient-background"></div>
+
+    <header class="header">
+      <div class="hamburger-menu js-menu">
+          <div class="bar js-toggle-menu"></div>
+      </div>
+    </header>
+
+    <nav class="nav js-top-menu">
+      <ul class="nav-items">
+        <li class="nav-item">
+          First item
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Otto Wagner
+        </li>
+        <li class="nav-item">
+          Almost last
+        </li>
+        <li class="nav-item">
+          Last item
+        </li>
+      </ul>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/app.js"></script>
+
+
+  </body>
+</html>
